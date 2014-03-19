@@ -1,0 +1,197 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}AIESECMainBundle:Membership:about{% endblock %}
+
+{% block body %}
+
+	<div class="row block">
+		<div class="col-md-6 col-md-offset-3">
+			<p id="home-sub-quote" class="col-md-12 text-center main-quote">
+				Do you have what it takes to be
+				<span>extraordinary?</span>
+			</p>
+			<div class="main-text">
+				<p>We believe everyone has the potential to be extraordinary. You are no exception. <br><br>At AIESEC,
+				   we nurture young people to become future leaders that are committed to making a change in our world.
+				   Our Mission: Peace and Fulfillment of Humankind's Potential. That includes YOUR potential. Now is
+				   your chance to get valuable leadership training by becoming an Executive Board Member of AIESEC. </p>
+				<br/>
+			</div>
+		</div>
+	</div>
+	<div class="row block colored-block">
+		<div class="col-md-6 col-md-offset-3">
+			<p id="home-sub-quote" class="col-md-12 text-center main-quote">
+				Which hero are
+				<span>you?</span>
+			</p>
+			<div class="main-text" style="text-align: center">
+				<p>Ready to take charge? Click on the posters below to explore which hero you identify with!</p>
+				<br/>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<a href="#brand" data-toggle="modal">
+						<img class="img-responsive" src="{{ asset('bundles/aiesecmain/img/Batman EB Poster.jpg') }}"
+						     alt=""/>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="#crusader" data-toggle="modal">
+						<img class="img-responsive"
+						     src="{{ asset('bundles/aiesecmain/img/Wonder Woman EB Poster.jpg') }}" alt=""/>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="#seller" data-toggle="modal">
+						<img class="img-responsive" src="{{ asset('bundles/aiesecmain/img/Iron Man EB Poster.jpg') }}"
+						     alt=""/>
+					</a>
+				</div>
+			</div>
+			<br><br>
+			<div class="row">
+				<div class="col-md-4">
+					<a href="#social" data-toggle="modal">
+						<img class="img-responsive" src="{{ asset('bundles/aiesecmain/img/Supergirl EB Poster.jpg') }}"
+						     alt=""/>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="#fiscal" data-toggle="modal">
+						<img class="img-responsive"
+						     src="{{ asset('bundles/aiesecmain/img/Green Lantern EB Poster.jpg') }}" alt=""/>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="#social" data-toggle="modal">
+						<img class="img-responsive" src="{{ asset('bundles/aiesecmain/img/Superman EB Poster.jpg') }}"
+						     alt=""/>
+					</a>
+				</div>
+			</div>
+			<!-- Modals -->
+			<div id="crusader" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			     aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							<h3 id="myModalLabel">THE ODYSSEY CRUSADER</h3>
+						</div>
+						<div class="modal-body">
+							<p>Be The Odyssey Crusader. Boost others desire to travel abroad and be the liaison for
+							   positive experiences. <br><br>Super Powers: passionate promoter, assertive communicator,
+							   proactive leader, upbeat extrovert, goal-achiever <br><br>Make the first step to becoming
+							   extraordinary by contacting us today at
+								<a href="mailto:gothenburg@aiesec.se">gothenburg@aiesec.se</a>
+							   Know someone SUPERB for this position? Share it with them!
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="seller" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			     aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							<h3 id="myModalLabel">THE CORPORATE SELLER</h3>
+						</div>
+						<div class="modal-body">
+							<p>Be The Corporate Seller. Develop relations with companies in Sweden and execute deals
+							   like a ninja.<br><br> Super Powers: persuasive communicator, networking super-star,
+							   innovative intellect, negotiating prowess, driven initiator, strong work-ethic. <br><br>Make
+							   the first step to becoming extraordinary by contacting us today at
+								<a href="mailto:gothenburg@aiesec.se">gothenburg@aiesec.se</a>
+							   Know someone SUPERB for this position? Share it with them!
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="social" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			     aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							<h3 id="myModalLabel">THE SOCIAL ENTREPRENEUR</h3>
+						</div>
+						<div class="modal-body">
+							<p>To be revealed! </p>
+						</div>
+						<div class="modal-footer">
+							<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="social" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			     aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							<h3 id="myModalLabel">THE SOCIAL ENTREPRENEUR</h3>
+						</div>
+						<div class="modal-body">
+							<p>To be revealed! </p>
+						</div>
+						<div class="modal-footer">
+							<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="brand" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			     aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							<h3 id="myModalLabel">THE BRAND AGENT</h3>
+						</div>
+						<div class="modal-body">
+							<p>To be revealed! </p>
+						</div>
+						<div class="modal-footer">
+							<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="fiscal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			     aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							<h3 id="myModalLabel">THE FISCAL GENIUS</h3>
+						</div>
+						<div class="modal-body">
+							<p>Be The Fiscal Genius. Rule No. 1: Never lose money. Rule No. 2: Never forget rule No. 1.-
+							   Warren Buffet.<br><br> Super Powers: financial wizard, analytical detective, enterprising
+							   advocate, astute prioritizer, protocol expert.<br><br>Make the first step to becoming
+							   extraordinary by contacting us today at
+								<a href="mailto:gothenburg@aiesec.se">gothenburg@aiesec.se</a>
+							   Know someone SUPERB for this position? Share it with them!
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+{% endblock %}

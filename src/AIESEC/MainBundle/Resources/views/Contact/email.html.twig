@@ -1,0 +1,14 @@
+Somebody sent us a message via the websites contact form:
+
+Name: {{ fname }} {{ lname }}
+Email: {{ email }}
+
+Message:
+{% if message == '' %}
+	No message
+{% else %}
+	{{ message }}
+{% endif %}
+
+Have a lovely day!
+

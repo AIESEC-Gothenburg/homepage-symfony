@@ -1,0 +1,66 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}
+
+	Internships
+
+{% endblock %}
+
+{% block body %}
+	<div id="featured-banner" class="section internship-banner">
+		<div class="container">
+			<p class="title">Move beyond the lecture hall</p>
+			<!--
+			<p class="sub-title col-md-12">Creating young leaders since 1948!</p>
+			-->
+		</div>
+	</div> <!-- end.section -->
+	<div class="row block">
+		<div class="col-md-6 col-md-offset-3">
+			<p id="home-sub-quote" class="col-md-12 text-center main-quote">
+				Time to get some
+				<span>real-life experience?</span>
+			</p>
+			<div class="main-text">
+				<p>AIESEC currently offers more than 15,000 paid and voluntary internship positions all over the world.
+				   Taking one is a golden opportunity to get experience for life, build your skillset, and take the step
+				   from the lecture hall into the professional life. Every year, approximately 5000 students go on an
+				   exchange with us.</p>
+			</div>
+		</div>
+	</div>
+	<div class="row block colored-block">
+		<div class="col-md-6 col-md-offset-3">
+			<p id="home-sub-quote" class="col-md-12 text-center main-quote">
+				About our
+				<span>internships</span>
+			</p>
+			<div class="main-text">
+				<p>Our internships fall into two categories: <br>
+				<ul>
+					<br>
+					<li>
+						<a href="{{ path('internship_gcdp') }}">Global Community Development Program (GCDP)</a>
+						- voluntary internships related to NGO work and activities. Interns will work with issues in
+						education, languages, HIV/AIDS awareness, medicine and more. A GCDP typically lasts from 6 weeks
+						to 3 months.
+					</li>
+					<br>
+					<li>
+						<a href="{{ path('internship_gip') }}">Global Internship Program (GIP)</a>
+						- paid internships in one of our partner companies. Interns will take actual trainee positions
+						in the company, and as such gain rich professional knowledge. A GIP typically lasts from 6 to 18
+						months.
+					</li>
+					<br>
+				</ul>
+				Please follow the links above to learn more about either program. If you would like to sign, you can use
+				our
+				<a href="{{ path('internship_apply') }}">contact form</a>
+				.</p>
+			</div>
+		</div>
+	</div>
+{% endblock %}
+
+

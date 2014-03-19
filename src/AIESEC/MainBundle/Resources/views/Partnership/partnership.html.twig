@@ -1,0 +1,62 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}AIESECMainBundle:Partnership:partnership{% endblock %}
+
+{% block body %}
+	<div class="row block">
+		<div class="col-md-6 col-md-offset-3">
+			<p id="home-sub-quote" class="col-md-12 text-center main-quote">
+				AIESEC is a key player in global industrial interaction
+				<span></span>
+			</p>
+			<div class="main-text">
+				<p>Throughout our history, we have built a large number of partnerships with many of the most prominent
+				   international corporations. Below, we present some of our global and national partners.</p>
+				<h3>Global partners</h3>
+				<p>Our global partners are companies and organisations which work with AIESEC on an international scale,
+				   both helping us to execute, and benefiting from, our various projects and internship offerings.</p>
+				<br/>
+				<object codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0"
+				        classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
+					<param name="movie" value="{{ asset('bundles/aiesecmain/flash-media/__partners_f4.swf') }}">
+					<param name="quality" value="high">
+					<param name="play" value="true">
+					<param name="loop" value="true">
+					<param name="wmode" value="transparent">
+					<param name="allowFullScreen" value="true">
+					<param name="flashvars" value="">
+					<embed src="{{ asset('bundles/aiesecmain/flash-media/__partners_f4.swf') }}" quality="high"
+					       pluginspage="http://www.macromedia.com/go/getflashplayer" play="true" loop="true"
+					       wmode="transparent" allowfullscreen="true" flashvars="" type="application/x-shockwave-flash"
+					       align="middle" height="83px" width="917px">
+				</object>
+				<br/><br/>
+				<h3>Local partners</h3>
+				<p>Local partners are companies and organizations which work together with us in each individual country
+				   we are present in. In Sweden, some of our local partners are the following:</p><br/><br/>
+				<div class="row">
+					<div class="col-md-6">
+						<img class="centered-element"
+						     src="{{ asset('bundles/aiesecmain/img/partnerships-logo-5973053.jpg') }}" alt=""/>
+					</div>
+					<div class="col-md-6">
+						<img class="centered-element"
+						     src="{{ asset('bundles/aiesecmain/img/partnerships-logo-1879069.jpg') }}" alt=""/>
+					</div>
+				</div>
+				<br/><br/><br/>
+				<div class="row">
+					<div class="col-md-6">
+						<img class="centered-element"
+						     src="{{ asset('bundles/aiesecmain/img/partnerships-logo-1176315.png') }}" alt=""/>
+					</div>
+					<div class="col-md-6">
+						<img class="centered-element"
+						     src="{{ asset('bundles/aiesecmain/img/partnerships-logo-9590469.jpg') }}" alt=""/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+{% endblock %}

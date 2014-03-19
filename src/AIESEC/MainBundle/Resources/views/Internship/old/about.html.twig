@@ -1,0 +1,124 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}
+
+	Internships
+
+{% endblock %}
+
+{% block body %}
+
+	<div id="featured-banner" class="section internship-banner">
+		<div class="container">
+			<p class="title">Move beyond the lecture hall</p>
+			<!--
+			<p class="sub-title col-md-12">Creating young leaders since 1948!</p>
+			-->
+		</div>
+	</div> <!-- end.section -->
+
+	<div id="section-home" class="section">
+		<div class="container">
+			<div id="home-info" class="row">
+				<p id="home-sub-quote" class="col-md-12 text-center main-quote">
+					Time to get some
+					<span>real-life experience?</span>
+				</p>
+				<div class="main-text">
+					<p>AIESEC currently offers more than 15,000 paid and voluntary internship positions all over the
+					   world. Taking one is a golden opportunity to get experience for life, build your skillset, and
+					   take the step from the lecture hall into the professional life. Every year, approximately 5000
+					   students go on an exchange with us.</p>
+					<h3>About our internships</h3>
+					<p>An AIESEC Global Internship is the perfect stepping stone between the lecture hall and the
+					   professional life. Not only does it offer you an intensive experience as a trainee in one of our
+					   global partner companies, but you will at the same time get an invaluable international
+					   experience as you work in a foreign environment. AIESEC currently offers over 6000 paid
+					   internship position worldwide. Among our partners are Ericsson, Facebook. DHL, PWC, Electrolux,
+					   and many more.</p>
+					<h3>How does it work?</h3>
+					<img id="internships-tech-talent" src="{{ asset('bundles/aiesecmain/img/523853384.jpg') }}">
+					<p>An internship typically lasts between 6 to 18 months, and must be situated in another country
+					   than the one you are currently living in, or the one you were born in. Primarily, our internships
+					   are targeted at students of IT (software development, web development, system administration etc)
+					   and Economics (management, sales, human resources, etc).</p>
+					<p>During your internship, you will receive a salary that will at minimum cover your living
+					   expenses. This salary varies between countries, but is never below the minimum wage as mandated
+					   by local laws. </p>
+					<p>AIESEC is responsible for taking care of you before, during and after your internship. Among
+					   other things, we provide you with extensive support with regard to visa and work permit issues,
+					   CV writing, applications, local orientation, friendship, community, and more. We are here to make
+					   your internship experience an awesome one, and you will find that we will be there no matter
+					   where you need us.</p>
+					<h3>Who can do an internship?</h3>
+					<p>AIESEC internships are available to all current and former students filling the following minimum
+					   criteria:</p>
+					<ul>
+						<li>Aged 18 to 30 years.</li>
+						<li>Ongoing or finished Bachelors degree within Economics or IT.</li>
+						<li>Good skills in spoken and written english.</li>
+						<li>Preferred: applicable professional experience (minimum 1 year).</li>
+					</ul>
+					<h3>Pricing</h3>
+					<strong>Fee</strong>
+					<p>The fee for a global internship is 5000 SEK. The fee is used to cover our own expenses, as well
+					   as to extend the internship program so that we can offer more positions to more students.</p>
+					<p>The fee is payable in 2 installments of 2500 SEK each. the first one is paid after you sign the
+					   Internship Agreement, and the second one is signed after you successfully get accepted for an
+					   internship. The fee does not cover travel expenses.</p>
+					<p>The time from registration to departure is usually 2-3 months. In the highly unlikely event that
+					   you do not get matched to an internship within 12 months, the entire fee, minus a 500 SEK
+					   administrative cost, will be refunded to you.</p>
+					<h3>Process</h3>
+					<strong>Application and selection</strong>
+					<p>You can apply for an internship using our
+						<a href="{{ path('internship_apply') }}"> form</a>
+					</p>
+					<p>Following this, you will be called to an interview where we will examine your credentials to make
+					   sure that you meet the basic prerequisites as described above. If you are accepted following this
+					   interview, you will be offered to sign the Internship Agreement, after which we fully enroll you
+					   in the internship program.</p>
+					<strong>Internship search process</strong>
+					<p>Following your acceptance as an internship candidate, you will be granted 12 months access to the
+					   internship database, where you can freely search, query and apply for an unlimited number of
+					   internships.</p>
+					<p>To help make this process as fruitful as possible for you, AIESEC will provide you with a
+					   personal coach (an "EP buddy") who will guide and help you during your search. Your Buddy will
+					   help you with your CV, contacts with companies, and much more.</p>
+					<strong>Matching and departure</strong>
+					<p>When you apply for an internship, the company hosting the internship will review your profile
+					   (along with those of other applicants), and possibly contact you for interviews and further
+					   examination. The individual selection cycle for each internship you apply for may vary, but your
+					   EP Buddy will always support you in all relevant matters for each.</p>
+					<p>When a company finally accepts you as an intern, and you accept their offer, you will enter the
+					   departure stage of your internship. Here, AIESEC Gothenburg will finalize the internship
+					   agreement with the company, and help you acquire all needed documents for you to depart. We will
+					   also help you to start looking for accommodation and other things you will need once you arrive
+					   at your destination.</p>
+					<p>Please note that optional costs related to acquiring some travel documents, such as travelling to
+					   an embassy or getting a mandatory vaccination, are not covered by the paid fee. On request, we
+					   will of course help you predict such requirements for internships you apply for.</p>
+					<strong>Arrival and internship</strong>
+					<p>When you arrive in the city and country where you will be doing your internship, you will be
+					   connected to the local AIESEC Committee in that city. They will help you with issues such as
+					   accommodation, getting around, orientation, and much more. We will of course still keep in touch
+					   with your from Gothenburg to make sure everything is going alright with you. You can always
+					   contact us with any requests.</p>
+					<strong>Return and re-integration</strong>
+					<p>When your internship finishes and it is time to return to Sweden, you just might find a small
+					   delegation waiting to pick you up at Landvetter :)</p>
+					<p>So, what are you waiting for? Step out into the world with us!</p>
+					<p>AIESEC Gothenburg will help you with any issues related to settling back down in Sweden. We will
+					   also do a follow up where you can share you overall internship experience in order to help us
+					   make the program even better for future students.</p>
+					<p>So, what are you waiting for? Step out into the world with us!</p>
+				</div>
+			</div>
+		</div>
+		<!-- end.container -->
+	</div> <!-- end.section -->
+
+
+{% endblock %}
+
+

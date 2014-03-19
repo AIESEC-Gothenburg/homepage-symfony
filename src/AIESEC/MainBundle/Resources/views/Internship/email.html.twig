@@ -1,0 +1,29 @@
+A new internship application has been posted:
+
+Name: {{ fname }} {{ lname }}
+Email: {{ email }}
+Country: {{ country }}
+Nationality: {{ nationality }}
+Mobile: {{ mobile }}
+Field: {{ field }}
+University: {{ university }}
+
+{{ fname }} has the following degrees:
+{% for degree_item in degree %}
+	{{ degree_item }}
+{% endfor %}
+
+{{ fname }} would be interested in the following type of internship:
+	{{ kind }}
+
+Personal message:
+{% if message == '' %}
+	No message
+{% else %}
+	{{ message }}
+{% endif %}
+
+CV is attached.
+
+Have a lovely day!
+

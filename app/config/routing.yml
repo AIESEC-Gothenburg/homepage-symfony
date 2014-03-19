@@ -1,0 +1,4 @@
+aiesec_main:
+    resource: "@AIESECMainBundle/Controller/"
+    type:     annotation
+    prefix:   /

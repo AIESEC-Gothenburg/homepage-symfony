@@ -1,0 +1,229 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}AIESECMainBundle:Membership:teams{% endblock %}
+
+{% block body %}
+
+	<div id="section-home" class="section">
+		<div class="container">
+			<div id="home-info" class="row">
+				<p id="home-sub-quote" class="col-md-12 text-center main-quote">
+					AIESEC Gothenburg
+					<span>teams</span>
+				</p>
+				<div class="main-text">
+					<p>As a member, you will work in one of our teams. Which one you pick is entirely up to your
+					   personal expertise and ambitions. AIESEC Gothenburg is a living and vibrant organisation, and we
+					   always need new young professional from a wide range of fields.</p>
+					<p>Below, you will find a brief description of each team, including the kinds of experience they
+					   offer. Find something that suites you, and apply today! </p>
+					<div class="accordion" id="accordion2">
+						<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
+								   href="#collapseOne"> Finance Team
+								</a>
+							</div>
+							<div id="collapseOne" class="accordion-body collapse in">
+								<div class="accordion-inner">
+									<p>The role of the finance team is to oversee all financial transactions within the
+									   Local Committee (LC). The Finance team is responsible for book keeping and
+									   preparing reports, setting up budgets for projects and the LC as a whole, sending
+									   and paying invoices, and everything else that involves monetary transactions.</p>
+									<ul>
+										<li>Budgeting.</li>
+										<li>Accounting.</li>
+										<li>Preparing fiscal year reports.</li>
+										<li>Relations with tax authorities.</li>
+									</ul>
+									<p>To apply, click
+										<a href="{{ path('membership_apply') }}">here</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
+								   href="#collapseTwo"> Outgoing Exchange Team (OGX)
+								</a>
+							</div>
+							<div id="collapseTwo" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<p>The OGX team is the team directly responsible for taking care of local students
+									   (both members and non-members) who wish to do an internship through AIESEC.
+									   Together with the Communication and Talent Management teams, they work to reach
+									   out to, recruit, train, follow-up with returning interns - simply providing the
+									   best internship experience anywhere.</p>
+									<p>OGX is a given choice if you are passionate about helping other students get
+									   kickstarted in their careers. You will have the opportunity to develop your
+									   skills in communication, resume vetting and professional matching, as you join in
+									   helping students find internships that fit their interests and needs.</p>
+									<p><strong>Main Responsibilities : </strong></p>
+									<ul>
+										<li>Reviewing and selecting students who applied for an internship via AIESEC
+										    Gothenburg.
+										</li>
+										<li>Coaching and following up on students during their application periods.</li>
+										<li>Handling relations with immigration and visa authorities on the behalf of
+										    students who get accepted for an internship.
+										</li>
+										<li>Receiving and caring for returning interns.</li>
+									</ul>
+									<p>To apply, click
+										<a href="{{ path('membership_apply') }}">here</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
+								   href="#collapseThree"> Incoming Exchange Team (ICX)
+								</a>
+							</div>
+							<div id="collapseThree" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<p>The role of the ICX team is two-fold: on one hand they handle relations with
+									   companies and universities, cooperating with them in order to create internship
+									   positions for students coming from abroad. On the other hand, they select
+									   candidates for local internship positions, and provide care for students who are
+									   selected for such internships.</p>
+									<p>ICX is great for students who are interested in interacting directly with foreign
+									   students coming to do internships in Sweden. You will for example be responsible
+									   for organizing and driving events together with them, helping them to get around
+									   Gothenburg, and integrate with the local student body and culture.</p>
+									<p>You will also gain great experience in terms of company relations, as you will
+									   get to work directly with local companies in order to set up oversee ongoing
+									   internships. This also involves communicating with companies which are not
+									   currently AIESEC partners about our internship offers.</p>
+									<p><strong>Main Responsibilities : </strong></p>
+									<ul>
+										<li>External relations.</li>
+										<li>Reviewing, interviewing and selecting internship candidates.</li>
+										<li>Caring for arriving interns during their stay in Gothenburg.</li>
+									</ul>
+									<p>To apply, click
+										<a href="{{ path('membership_apply') }}">here</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
+								   href="#collapseFour"> Communications Team
+								</a>
+							</div>
+							<div id="collapseFour" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<p>The Communications Team (or simply COM) is responsible for providing the LC with
+									   what it needs to communicate both internally and externally. They develop and
+									   maintain the AIESEC Gothenburg webpage, Facebook page, LinkedIn profile and other
+									   internet holdings. They are also responsible for preparing flyers and promotional
+									   materials, overseeing mailing lists and other communication tools, and much
+									   more.</p>
+									<p>The COM team is a great place to be if you are a student of marketing, design,
+									   IT, or if you simply want a great opportunity to improve your skills in
+									   communication and outreach. Aside from perfecting your existing skills, you will
+									   acquire new ones through working with new tools, ideas and platforms.</p>
+									<p><strong>Main Responsibilities : </strong></p>
+									<ul>
+										<li>Online presence</li>
+										<li>Internal IT infrastructure development and maintenance</li>
+										<li>Promotion strategies</li>
+										<li>Communication plan</li>
+										<li>Brand management</li>
+									</ul>
+									<p>To apply, click
+										<a href="{{ path('membership_apply') }}">here</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
+								   href="#collapseFive"> Project Management Team
+								</a>
+							</div>
+							<div id="collapseFive" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<p>The Project Management Team is responsible for planning, driving and overseeing
+									   projects within the LC. They set up plans together with leaders of the other
+									   teams, coordinate their work, set realistic budgets and timeframes, and makes
+									   sure everyone works together to meet the common goals of the LC.</p>
+									<p>To apply, click
+										<a href="{{ path('membership_apply') }}">here</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
+								   href="#collapseSix"> External Relations and Sales Team
+								</a>
+							</div>
+							<div id="collapseSix" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<p>The External Relations team supplements the ICX team by providing a core group
+									   specifically for handling relationships with companies, universities and other
+									   organisation - something which is a heavy and important task in its own right,
+									   and hence best delegated.</p>
+									<p>As a member of ER, you will greatly improve you skills in organisational
+									   communication. You will get mentoring and training in driving through formal
+									   meetings, setting up cooperative strategies, maintaining formal relations, and
+									   much more!</p>
+									<p><strong>Main Responsibilities : </strong></p>
+									<ul>
+										<li>Handling university partnership project</li>
+										<li>Develop product packages and positioning strategies</li>
+										<li>Designing promotion materials</li>
+										<li>Selling AIESEC products</li>
+									</ul>
+									<p>To apply, click
+										<a href="{{ path('membership_apply') }}">here</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
+								   href="#collapseSeven"> Talent Management Team
+								</a>
+							</div>
+							<div id="collapseSeven" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<p>The Talent Management is the main Human Resource engine in AIESEC Gothenburg.
+									   They are responsible for reviewing and selecting membership candidates, helping
+									   present members to develop, following up on alumni, and more.</p>
+									<p>TM is a great place for students of HR, management, and project management. Among
+									   other things, you will learn and get experience in interviewing, evaluating
+									   resumes, tracking and influencing individual performance, and more.</p>
+									<p><strong>Main Responsibilities : </strong></p>
+									<ul>
+										<li>Members personal development</li>
+										<li>Recruitment of new members</li>
+										<li>Strategies for alumni engagement</li>
+										<li>Coaching of members</li>
+										<li>Re-integration of outgoing interns.</li>
+									</ul>
+									<p>To apply, click
+										<a href="{{ path('membership_apply') }}">here</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- end.container -->
+
+	</div> <!-- end.section -->
+
+{% endblock %}
